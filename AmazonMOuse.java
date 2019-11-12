@@ -19,7 +19,7 @@ public class AmazonMOuse {
 		act.moveToElement(obj1).build().perform();
 		WebElement obj =driver.findElement(By.xpath("//a[text()='Selenium']"));
 		obj.click();
-		driver.switchTo().alert().accept();
+		
 	}
-
+}
 }
